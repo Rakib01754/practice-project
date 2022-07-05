@@ -111,16 +111,17 @@ body {
 
 .equ-card {
     display: flex;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .half-card {
     width: 50%;
     padding: 20px;
-    margin-top: 40px;
-    margin-right: 20px;
+    margin: 40px 20px;
     border: none;
     border-radius: 15px;
-    -webkit-box-shadow: 0 0 10px 3px gray;
+    box-shadow: 0 0 10px 3px gray;
 
 }
 
@@ -148,7 +149,7 @@ body {
     margin: 4% auto;
     border: none;
     border-radius: 15px;
-    -webkit-box-shadow: 0 0 10px 3px gray;
+    box-shadow: 0 0 10px 3px gray;
 }
 
 .one-three {
